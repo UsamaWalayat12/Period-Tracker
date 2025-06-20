@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 340 50% 99%;
+    --foreground: 340 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 15%;
+
+    --primary: 340 90% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 60% 90%;
+    --secondary-foreground: 250 30% 30%;
+
+    --muted: 340 20% 96%;
+    --muted-foreground: 340 10% 45%;
+
+    --accent: 220 70% 90%;
+    --accent-foreground: 220 40% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 340 30% 92%;
+    --input: 340 30% 92%;
+    --ring: 340 90% 65%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 340 30% 10%;
+    --foreground: 340 10% 90%;
+
+    --card: 340 30% 15%;
+    --card-foreground: 340 10% 90%;
+
+    --popover: 340 30% 15%;
+    --popover-foreground: 340 10% 90%;
+
+    --primary: 340 70% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 40% 25%;
+    --secondary-foreground: 250 80% 90%;
+
+    --muted: 340 30% 20%;
+    --muted-foreground: 340 10% 60%;
+
+    --accent: 220 40% 25%;
+    --accent-foreground: 220 80% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 340 30% 25%;
+    --input: 340 30% 25%;
+    --ring: 340 70% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/80 border border-white/20 shadow-lg rounded-2xl p-4 sm:p-5 md:p-8;
+  }
+  
+  .glass-card-dark {
+    @apply backdrop-blur-md bg-black/30 border border-white/10 shadow-lg rounded-2xl p-4 sm:p-5 md:p-8;
+  }
+  
+  .page-container {
+    @apply w-full max-w-5xl mx-auto px-2 sm:px-4 py-4 sm:py-6 animate-fade-in;
+  }
+  
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-foreground/90;
+  }
+  
+  .nav-item {
+    @apply relative flex items-center justify-center w-full p-3 rounded-lg transition-all duration-200;
+  }
+  
+  .nav-item.active {
+    @apply text-primary;
+  }
+  
+  .nav-item.active::after {
+    content: '';
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2 h-0.5 bg-primary rounded-full;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 0.1s;
+  }
+  .animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animate-delay-300 {
+    animation-delay: 0.3s;
+  }
+  .animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+  .animate-delay-500 {
+    animation-delay: 0.5s;
+  }
+  .animate-delay-600 {
+    animation-delay: 0.6s;
+  }
+}
+
+/* Compact Mode Styles */
+.compact-mode {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.compact-mode p,
+.compact-mode .text-sm,
+.compact-mode .text-xs,
+.compact-mode .h-4,
+.compact-mode .w-4 {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.25rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.compact-mode h1 {
+  font-size: 1.5rem;
+}
+
+.compact-mode h2 {
+  font-size: 1.25rem;
+}
+
+.compact-mode button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.compact-mode input,
+.compact-mode select {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  height: 2rem;
+}
+
+.compact-mode .card {
+  padding: 0.75rem;
+}
+
+.compact-mode .card-header {
+  padding: 0.5rem;
+}
+
+.compact-mode .card-content {
+  padding: 0.5rem;
+}
+
+.compact-mode .card-footer {
+  padding: 0.5rem;
+}

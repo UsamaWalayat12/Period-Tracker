@@ -1,0 +1,40 @@
+{
+  "appPreferences": {
+    "title": "Preferências do aplicativo",
+    "description": "Personalize a experiência e as configurações de exibição do seu aplicativo",
+    "appearanceTab": "Aparência",
+    "trackingTab": "Rastreamento",
+    "displaySection": "Exibição",
+    "theme": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "language": {
+      "label": "Idioma",
+      "selectLanguage": "Selecionar idioma",
+      "english": "Inglês",
+      "spanish": "Espanhol",
+      "french": "Francês",
+      "german": "Alemão",
+      "portuguese": "Português"
+    },
+    "trackingPreferences": "Preferências de rastreamento",
+    "trackingOption1": "Opção de rastreamento 1",
+    "trackingOption2": "Opção de rastreamento 2"
+  },
+  "common": {
+    "saveChanges": "Salvar alterações",
+    "cancel": "Cancelar",
+    "saving": "Salvando...",
+    "notLoggedIn": "Não conectado",
+    "mustBeLoggedIn": "Você deve estar conectado para salvar as preferências.",
+    "preferencesUpdated": "Preferências atualizadas",
+    "preferencesSaved": "Suas preferências de aplicativo foram salvas",
+    "updateFailed": "Falha na atualização",
+    "tryAgain": "Falha ao atualizar as preferências. Por favor, tente novamente.",
+    "compactView": "Visualização compacta",
+    "compactViewDescription": "Usar um layout mais compacto para todas as telas"
+  }
+} 

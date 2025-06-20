@@ -1,0 +1,324 @@
+{
+  "appPreferences": {
+    "title": "Préférences de l'application",
+    "description": "Personnalisez votre expérience et les paramètres d'affichage de l'application",
+    "appearanceTab": "Apparence",
+    "trackingTab": "Suivi",
+    "displaySection": "Affichage",
+    "theme": {
+      "label": "Thème",
+      "light": "Clair",
+      "dark": "Foncé",
+      "system": "Système"
+    },
+    "language": {
+      "label": "Langue",
+      "selectLanguage": "Sélectionner la langue",
+      "english": "Anglais",
+      "spanish": "Espagnol",
+      "french": "Français",
+      "german": "Allemand",
+      "portuguese": "Portugais"
+    },
+    "trackingPreferences": "Préférences de suivi",
+    "trackingOption1": "Option de suivi 1",
+    "trackingOption2": "Option de suivi 2"
+  },
+  "common": {
+    "saveChanges": "Enregistrer les modifications",
+    "cancel": "Annuler",
+    "saving": "Enregistrement...",
+    "notLoggedIn": "Non connecté",
+    "mustBeLoggedIn": "Vous devez être connecté pour enregistrer les préférences.",
+    "preferencesUpdated": "Préférences mises à jour",
+    "preferencesSaved": "Vos préférences d'application ont été enregistrées",
+    "updateFailed": "Échec de la mise à jour",
+    "tryAgain": "Échec de la mise à jour des préférences. Veuillez réessayer.",
+    "compactView": "Vue compacte",
+    "compactViewDescription": "Utiliser une mise en page plus compacte pour tous les écrans"
+  },
+  "profile": {
+    "accountSettings": {
+      "title": "Paramètres du compte",
+      "description": "Mettre à jour les informations de votre profil"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Configurer vos préférences de notification"
+    },
+    "preferences": {
+      "title": "Préférences",
+      "description": "Personnaliser votre expérience d'application"
+    },
+    "privacySecurity": {
+      "title": "Confidentialité et sécurité",
+      "description": "Gérer vos données et paramètres de confidentialité"
+    },
+    "logout": "Se déconnecter"
+  },
+  "homepage": {
+    "dateFormat": "d MMMM yyyy",
+    "tagline": "Suivez votre cycle, comprenez votre corps"
+  },
+  "periodHistory": {
+    "title": "Historique des Périodes",
+    "loginRequired": "Veuillez vous connecter pour voir l'historique des périodes",
+    "fetchError": "Échec de la récupération de l'historique des périodes",
+    "loginToDelete": "Veuillez vous connecter pour supprimer les entrées de période",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette entrée de période ?",
+    "deleteSuccess": "Entrée de période supprimée avec succès",
+    "deleteFailed": "Échec de la suppression de l'entrée de période",
+    "noEntries": "Aucune entrée de période trouvée. Commencez à enregistrer vos périodes !",
+    "dateFormat": "dd MMMM yyyy",
+    "flow": {
+      "light": "Flux léger",
+      "medium": "Flux moyen",
+      "heavy": "Flux abondant"
+    }
+  },
+  "periodLogger": {
+    "loginRequired": "Veuillez vous connecter pour suivre votre période",
+    "updateSuccess": "Entrée de période mise à jour avec succès",
+    "startLoggedSuccess": "Date de début de période enregistrée avec succès",
+    "dateFormat": "dd MMMM yyyy",
+    "startLoggedFailed": "Échec de l'enregistrement de la date de début de période",
+    "endLoggedSuccess": "Date de fin de période enregistrée avec succès",
+    "endLoggedFailed": "Échec de l'enregistrement de la date de fin de période",
+    "savingChanges": "Enregistrement des modifications...",
+    "logging": "Enregistrement...",
+    "saveChanges": "Enregistrer les modifications",
+    "logPeriod": "Enregistrer la période",
+    "editPeriodEntryTitle": "Modifier l'entrée de période",
+    "logPeriodTitle": "Enregistrer la période",
+    "editPeriodEntryDescription": "Modifier les détails de votre période pour la date sélectionnée.",
+    "logPeriodDescription": "Ajouter des détails sur votre période pour la date sélectionnée.",
+    "startDateLabel": "Date de début",
+    "endDateLabel": "Date de fin",
+    "flowLabel": "Flux",
+    "flowOptions": {
+      "light": "Léger",
+      "medium": "Moyen",
+      "heavy": "Abondant"
+    },
+    "symptomsLabel": "Symptômes",
+    "customSymptomPlaceholder": "Ajouter un symptôme personnalisé",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Ajouter des notes sur votre période..."
+  },
+  "symptoms": {
+    "cramps": "Crampes",
+    "headache": "Maux de tête",
+    "bloating": "Ballonnements",
+    "fatigue": "Fatigue",
+    "nausea": "Nausées",
+    "backPain": "Maux de dos",
+    "breastTenderness": "Sensibilité des seins",
+    "acne": "Acné",
+    "spotting": "Spotting",
+    "cravings": "Envies",
+    "moodSwings": "Sautes d'humeur",
+    "insomnia": "Insomnie"
+  },
+  "symptomHistory": {
+    "title": "Historique des symptômes",
+    "week": "Semaine",
+    "month": "Mois",
+    "symptomFrequency": "Fréquence des symptômes",
+    "times": "{{count}} fois",
+    "moodTrends": "Tendances de l'humeur",
+    "sleepPatterns": "Habitudes de sommeil",
+    "recentNotes": "Notes récentes",
+    "dateFormat": "MMM dd, yyyy"
+  },
+  "pregnancy": {
+    "title": "Suivi de Grossesse",
+    "editDataButton": "Modifier les données",
+    "timelineTab": "Chronologie",
+    "toolsTab": "Outils",
+    "noDataAlertTitle": "Aucune donnée de grossesse",
+    "noDataAlertDescription": "Veuillez entrer votre dernière période menstruelle (DDR) ou votre date d'accouchement prévue (DPA) pour commencer le suivi de votre grossesse.",
+    "overviewCard": {
+      "title": "Aperçu de la Grossesse",
+      "description": "Un aperçu rapide de votre état de grossesse actuel.",
+      "currentWeek": "Semaine actuelle : {{week}}",
+      "dueDate": "Date d'accouchement prévue : {{date}}",
+      "lmp": "Dernière période menstruelle : {{date}}",
+      "editData": "Modifier les données"
+    },
+    "weekByWeekCard": {
+      "title": "Semaine {{week}} de Grossesse",
+      "babyDevelopment": "Développement du bébé",
+      "babyDevelopmentContent": "Cette semaine, votre bébé subit des changements importants. Consultez notre guide détaillé pour en savoir plus.",
+      "momChanges": "Changements chez la mère",
+      "momChangesContent": "Votre corps s'adapte à la grossesse. Découvrez les changements courants et comment les gérer."
+    },
+    "trimesterGuideCard": {
+      "title": "Guide par Trimestre",
+      "articles": "Articles en vedette",
+      "firstTrimesterArticle": "Premier Trimestre : À quoi s'attendre",
+      "secondTrimesterArticle": "Deuxième Trimestre : La Période Dorée",
+      "thirdTrimesterArticle": "Troisième Trimestre : Vers la Ligne d'arrivée"
+    },
+    "symptomSummaryCard": {
+      "title": "Résumé des Symptômes",
+      "description": "Un résumé de vos symptômes enregistrés pendant la grossesse.",
+      "noSymptomsRecorded": "Aucun symptôme enregistré pour le moment.",
+      "viewFullHistory": "Voir l'historique complet des symptômes"
+    },
+    "upcomingAppointmentsCard": {
+      "title": "Rendez-vous à venir",
+      "description": "Vos prochaines visites prénatales importantes.",
+      "viewAllAppointments": "Voir tous les rendez-vous"
+    },
+    "fertilityModeCard": {
+      "title": "Suivi de la Fertilité",
+      "description": "Suivez votre cycle et prédisez votre fenêtre fertile.",
+      "nextPeriod": "Prochaine période : {{date}}",
+      "ovulation": "Ovulation estimée : {{date}}",
+      "fertileWindow": "Fenêtre fertile : {{start}} - {{end}}",
+      "noPredictionDataTitle": "Données insuffisantes pour les prédictions",
+      "noPredictionDataDescription": "Enregistrez au moins 2 entrées de période pour obtenir des prédictions de cycle précises.",
+      "logPeriod": "Enregistrer la période"
+    },
+    "toolsCard": {
+      "title": "Outils de Grossesse",
+      "description": "Des outils utiles pour votre parcours de grossesse.",
+      "weightTracker": "Suivi du Poids",
+      "trackWeight": "Enregistrez et surveillez vos changements de poids.",
+      "appointmentTracker": "Suivi des Rendez-vous",
+      "logAppointments": "Gardez une trace de vos rendez-vous prénataux.",
+      "contractionTimer": "Compteur de Contractions",
+      "timeContractions": "Chronométrez et surveillez vos contractions.",
+      "kickCounter": "Compteur de Coups",
+      "countKicks": "Comptez et suivez les mouvements de votre bébé."
+    },
+    "educationCard": {
+      "title": "Éducation à la Grossesse",
+      "description": "Articles et guides informatifs pour chaque étape de la grossesse.",
+      "featuredArticles": "Articles en vedette"
+    },
+    "symptomsInsightsCard": {
+      "title": "Symptômes et Aperçus",
+      "description": "Obtenez des informations sur vos symptômes et votre santé globale.",
+      "trackSymptoms": "Suivre les symptômes",
+      "viewInsights": "Voir les aperçus"
+    },
+    "milestones": {
+      "week8": {
+        "title": "8 Semaines : Battements de cœur fœtaux visibles",
+        "description": "Le cœur du bébé bat maintenant et peut être vu à l'échographie."
+      },
+      "week12": {
+        "title": "12 Semaines : Tous les organes majeurs sont formés",
+        "description": "Votre bébé a tous les organes majeurs formés et est maintenant appelé un fœtus."
+      },
+      "week20": {
+        "title": "20 Semaines : Échographie de mi-grossesse",
+        "description": "L'échographie anatomique est généralement réalisée autour de cette semaine."
+      },
+      "week24": {
+        "title": "24 Semaines : Viabilité",
+        "description": "Les bébés nés si tôt ont une chance de survie avec des soins médicaux intensifs."
+      },
+      "week28": {
+        "title": "28 Semaines : Début du Troisième Trimestre",
+        "description": "Vous entrez maintenant dans le dernier trimestre de votre grossesse."
+      },
+      "week37": {
+        "title": "37 Semaines : À terme",
+        "description": "Votre bébé est maintenant considéré à terme et peut naître à tout moment."
+      }
+    },
+    "fetalDevelopment": {
+      "week4": {
+        "title": "Semaine 4 : Implantation et Développement Précoce",
+        "description": "Le blastocyste s'implante dans l'utérus, et la période embryonnaire commence.",
+        "fact1": "L'embryon a la taille d'une graine de pavot.",
+        "fact2": "Le tube neural, qui deviendra le cerveau et la moelle épinière, commence à se former.",
+        "fact3": "Un tube cardiaque primitif se forme et commencera bientôt à battre."
+      },
+      "week8": {
+        "title": "Semaine 8 : Développement des Organes Majeurs",
+        "description": "Tous les organes et systèmes corporels majeurs se développent, y compris le cerveau, le cœur et les poumons.",
+        "fact1": "L'embryon mesure maintenant environ 0,5 pouce de long.",
+        "fact2": "De minuscules doigts et orteils commencent à se former.",
+        "fact3": "Les battements de cœur peuvent souvent être détectés à l'échographie."
+      },
+      "week12": {
+        "title": "Semaine 12 : Développement du Fœtus",
+        "description": "L'embryon est maintenant officiellement un fœtus. Les organes et les tissus continuent de croître et de se développer.",
+        "fact1": "Le fœtus mesure environ 2,5 pouces de long et pèse environ 0,5 once.",
+        "fact2": "Les doigts et les orteils sont entièrement formés, et les ongles commencent à pousser.",
+        "fact3": "Le visage est bien formé avec les yeux, le nez et la bouche."
+      },
+      "week16": {
+        "title": "Semaine 16 : Développement Sensoriel et Mouvement",
+        "description": "Votre bébé grandit rapidement et le développement sensoriel progresse. Vous pourriez sentir des mouvements !",
+        "fact1": "Le bébé mesure environ 4,5 pouces de long et pèse environ 3,5 onces.",
+        "fact2": "Les yeux du bébé sont sensibles à la lumière.",
+        "fact3": "Les coups de pied et les mouvements deviennent plus perceptibles."
+      },
+      "week20": {
+        "title": "Semaine 20 : Jalon de Mi-Grossesse",
+        "description": "Vous êtes à mi-chemin ! Votre bébé grandit et devient plus actif.",
+        "fact1": "Le bébé mesure environ 6,5 pouces de long (tête-fesses) et pèse environ 10 onces.",
+        "fact2": "Les cheveux et les ongles continuent de pousser.",
+        "fact3": "Le bébé déglutit davantage et produit du méconium."
+      },
+      "week24": {
+        "title": "Semaine 24 : Développement Pulmonaire et Audition",
+        "description": "Les poumons du bébé se développent rapidement et l'audition devient plus aiguë.",
+        "fact1": "Le bébé mesure environ 8 pouces de long et pèse environ 1,5 livre.",
+        "fact2": "Le bébé peut entendre les sons de l'extérieur de l'utérus.",
+        "fact3": "Les poumons développent des sacs aériens (alvéoles)."
+      },
+      "week28": {
+        "title": "Semaine 28 : Développement Cérébral et Mouvement des Yeux",
+        "description": "Le cerveau de votre bébé se développe rapidement et il peut ouvrir les yeux.",
+        "fact1": "Le bébé mesure environ 10 pouces de long et pèse environ 2,5 livres.",
+        "fact2": "Le bébé peut ouvrir et fermer les yeux.",
+        "fact3": "Les mouvements oculaires rapides (REM) du sommeil commencent."
+      },
+      "week32": {
+        "title": "Semaine 32 : Prise de Poids et Maturation des Organes",
+        "description": "Votre bébé prend du poids rapidement et les organes continuent de mûrir.",
+        "fact1": "Le bébé mesure environ 11 pouces de long et pèse environ 3,75 livres.",
+        "fact2": "Les os du bébé se durcissent, mais le crâne reste mou pour la naissance.",
+        "fact3": "La plupart des bébés sont en position tête en bas à cette semaine."
+      },
+      "week36": {
+        "title": "Semaine 36 : Développement à Terme Complet",
+        "description": "Votre bébé approche du terme, avec tous les systèmes prêts pour la vie en dehors de l'utérus.",
+        "fact1": "Le bébé mesure environ 12,5 pouces de long et pèse environ 5,75 livres.",
+        "fact2": "Le système immunitaire du bébé se développe grâce aux anticorps de votre part.",
+        "fact3": "La tête du bébé peut commencer à descendre dans le bassin (allégement)."
+      },
+      "week40": {
+        "title": "Semaine 40 : Jour d'Arrivée !",
+        "description": "Votre bébé est entièrement développé et prêt à naître !",
+        "fact1": "Le bébé mesure environ 13,5 pouces de long et pèse environ 7,5 livres.",
+        "fact2": "La peau du bébé est lisse et douce.",
+        "fact3": "Le bébé est prêt pour la naissance !"
+      }
+    },
+    "trimesters": {
+      "first": "Premier Trimestre",
+      "second": "Deuxième Trimestre",
+      "third": "Troisième Trimestre"
+    },
+    "trimesterContent": {
+      "first": "Le premier trimestre est une période de développement rapide pour votre bébé et de nombreux changements pour vous. Les nausées matinales, la fatigue et la sensibilité des seins sont courants. Concentrez-vous sur une alimentation saine et le repos.",
+      "second": "Le deuxième trimestre est souvent appelé la 'période dorée' de la grossesse. Les nausées matinales disparaissent généralement, et vous pouvez vous sentir plus énergique. Vous commencerez probablement à sentir votre bébé bouger.",
+      "third": "Le troisième trimestre apporte une croissance significative pour votre bébé et des exigences physiques croissantes pour vous. Préparez-vous à l'accouchement et continuez à privilégier le repos et la nutrition.",
+      "unknown": "Les informations sur le trimestre ne sont pas disponibles sans plus de données."
+    },
+    "weekDevelopment": {
+      "unknown": "Les informations de développement ne sont pas disponibles pour cette semaine."
+    },
+    "calendar": {
+      "predictedPeriodStart": "Début de période prédit",
+      "ovulationDay": "Jour d'ovulation",
+      "fertileWindow": "Fenêtre fertile"
+    }
+  }
+} 

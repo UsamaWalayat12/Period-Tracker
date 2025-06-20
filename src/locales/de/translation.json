@@ -1,0 +1,40 @@
+{
+  "appPreferences": {
+    "title": "App-Einstellungen",
+    "description": "Passen Sie Ihre App-Erfahrung und Anzeigeeinstellungen an",
+    "appearanceTab": "Aussehen",
+    "trackingTab": "Verfolgung",
+    "displaySection": "Anzeige",
+    "theme": {
+      "label": "Thema",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "language": {
+      "label": "Sprache",
+      "selectLanguage": "Sprache auswählen",
+      "english": "Englisch",
+      "spanish": "Spanisch",
+      "french": "Französisch",
+      "german": "Deutsch",
+      "portuguese": "Portugiesisch"
+    },
+    "trackingPreferences": "Tracking-Einstellungen",
+    "trackingOption1": "Tracking-Option 1",
+    "trackingOption2": "Tracking-Option 2"
+  },
+  "common": {
+    "saveChanges": "Änderungen speichern",
+    "cancel": "Abbrechen",
+    "saving": "Speichern...",
+    "notLoggedIn": "Nicht angemeldet",
+    "mustBeLoggedIn": "Sie müssen angemeldet sein, um die Einstellungen zu speichern.",
+    "preferencesUpdated": "Einstellungen aktualisiert",
+    "preferencesSaved": "Ihre App-Einstellungen wurden gespeichert",
+    "updateFailed": "Aktualisierung fehlgeschlagen",
+    "tryAgain": "Fehler beim Aktualisieren der Einstellungen. Bitte versuchen Sie es erneut.",
+    "compactView": "Kompakte Ansicht",
+    "compactViewDescription": "Eine kompaktere Ansicht für alle Bildschirme verwenden"
+  }
+} 

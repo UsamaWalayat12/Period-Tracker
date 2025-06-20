@@ -1,0 +1,444 @@
+{
+  "appPreferences": {
+    "title": "App Preferences",
+    "description": "Customize your app experience and display settings",
+    "appearanceTab": "Appearance",
+    "trackingTab": "Tracking",
+    "displaySection": "Display",
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "label": "Language",
+      "selectLanguage": "Select language",
+      "english": "English",
+      "spanish": "Español",
+      "french": "Français",
+      "german": "Deutsch",
+      "portuguese": "Português"
+    },
+    "trackingPreferences": "Tracking Preferences",
+    "trackingOption1": "Tracking Option 1",
+    "trackingOption2": "Tracking Option 2"
+  },
+  "common": {
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "notLoggedIn": "Not logged in",
+    "mustBeLoggedIn": "You must be logged in to save preferences.",
+    "preferencesUpdated": "Preferences updated",
+    "preferencesSaved": "Your app preferences have been saved",
+    "updateFailed": "Update failed",
+    "tryAgain": "Failed to update preferences. Please try again.",
+    "compactView": "Compact View",
+    "compactViewDescription": "Use a more compact layout for all screens"
+  },
+  "profile": {
+    "accountSettings": {
+      "title": "Account Settings",
+      "description": "Update your profile information"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Configure your notification preferences"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "description": "Customize your app experience"
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Manage your data and privacy settings"
+    },
+    "logout": "Logout",
+    "notes": "Notes",
+    "notesPlaceholder": "Add any additional notes or details about your period.",
+    "tipTitle": "Did you know?",
+    "tipDescription": "Hydration is key during your period. Drink plenty of water!"
+  },
+  "homepage": {
+    "dateFormat": "MMMM d, yyyy",
+    "tagline": "Track your cycle, understand your body"
+  },
+  "pregnancy": {
+    "title": "Pregnancy Tracker",
+    "editDataButton": "Edit Data",
+    "timelineTab": "Timeline",
+    "toolsTab": "Tools",
+    "noDataAlertTitle": "No Pregnancy Data",
+    "noDataAlertDescription": "Please enter your Last Menstrual Period (LMP) or Estimated Due Date (EDD) to start tracking your pregnancy.",
+    "overviewCard": {
+      "title": "Pregnancy Overview",
+      "description": "A quick look at your current pregnancy status.",
+      "currentWeek": "Current Week: {{week}}",
+      "dueDate": "Estimated Due Date: {{date}}",
+      "lmp": "Last Menstrual Period: {{date}}",
+      "editData": "Edit Data"
+    },
+    "weekByWeekCard": {
+      "title": "Week {{week}} of Pregnancy",
+      "babyDevelopment": "Baby's Development",
+      "babyDevelopmentContent": "This week, your baby is undergoing significant changes. Consult our detailed guide for more.",
+      "momChanges": "Mom's Changes",
+      "momChangesContent": "Your body is adapting to pregnancy. Learn about common changes and how to manage them."
+    },
+    "trimesterGuideCard": {
+      "title": "Trimester Guide",
+      "articles": "Featured Articles",
+      "firstTrimesterArticle": "First Trimester: What to Expect",
+      "secondTrimesterArticle": "Second Trimester: The Golden Period",
+      "thirdTrimesterArticle": "Third Trimester: Nearing the Finish Line"
+    },
+    "symptomSummaryCard": {
+      "title": "Symptom Summary",
+      "description": "A summary of your logged symptoms during pregnancy.",
+      "noSymptomsRecorded": "No symptoms recorded yet.",
+      "viewFullHistory": "View Full Symptom History"
+    },
+    "upcomingAppointmentsCard": {
+      "title": "Upcoming Appointments",
+      "description": "Your next important prenatal visits.",
+      "viewAllAppointments": "View All Appointments"
+    },
+    "fertilityModeCard": {
+      "title": "Fertility Tracking",
+      "description": "Track your cycle and predict your fertile window.",
+      "nextPeriod": "Next Period: {{date}}",
+      "ovulation": "Estimated Ovulation: {{date}}",
+      "fertileWindow": "Fertile Window: {{start}} - {{end}}",
+      "noPredictionDataTitle": "Not Enough Data for Predictions",
+      "noPredictionDataDescription": "Log at least 2 period entries to get accurate cycle predictions.",
+      "logPeriod": "Log Period"
+    },
+    "toolsCard": {
+      "title": "Pregnancy Tools",
+      "description": "Helpful tools for your pregnancy journey.",
+      "weightTracker": "Weight Tracker",
+      "trackWeight": "Log and monitor your weight changes.",
+      "appointmentTracker": "Appointment Tracker",
+      "logAppointments": "Keep track of your prenatal appointments.",
+      "contractionTimer": "Contraction Timer",
+      "timeContractions": "Time and monitor your contractions.",
+      "kickCounter": "Kick Counter",
+      "countKicks": "Count and track your baby's movements."
+    },
+    "educationCard": {
+      "title": "Pregnancy Education",
+      "description": "Informative articles and guides for every stage of pregnancy.",
+      "featuredArticles": "Featured Articles"
+    },
+    "symptomsInsightsCard": {
+      "title": "Symptoms & Insights",
+      "description": "Gain insights into your symptoms and overall health.",
+      "trackSymptoms": "Track Symptoms",
+      "viewInsights": "View Insights"
+    },
+    "milestones": {
+      "week8": {
+        "title": "8 Weeks: Fetal Heartbeat Visible",
+        "description": "The baby's heart is now beating and can be seen on ultrasound."
+      },
+      "week12": {
+        "title": "12 Weeks: All Major Organs Formed",
+        "description": "Your baby has all major organs formed and is now called a fetus."
+      },
+      "week20": {
+        "title": "20 Weeks: Mid-Pregnancy Scan",
+        "description": "The anatomy scan is usually performed around this week."
+      },
+      "week24": {
+        "title": "24 Weeks: Viability",
+        "description": "Babies born this early have a chance of survival with intensive medical care."
+      },
+      "week28": {
+        "title": "28 Weeks: Third Trimester Begins",
+        "description": "You are now entering the final trimester of your pregnancy."
+      },
+      "week37": {
+        "title": "37 Weeks: Full Term",
+        "description": "Your baby is now considered full term and can be born at any time."
+      }
+    },
+    "fetalDevelopment": {
+      "week4": {
+        "title": "Week 4: Implantation and Early Development",
+        "description": "The blastocyst implants in the uterus, and the embryonic period begins.",
+        "fact1": "The embryo is about the size of a poppy seed.",
+        "fact2": "The neural tube, which becomes the brain and spinal cord, starts to form.",
+        "fact3": "A primitive heart tube is forming and will soon begin to beat."
+      },
+      "week8": {
+        "title": "Week 8: Major Organs Developing",
+        "description": "All major organs and body systems are developing, including the brain, heart, and lungs.",
+        "fact1": "The embryo is now about 0.5 inches long.",
+        "fact2": "Tiny fingers and toes are starting to form.",
+        "fact3": "The heartbeat can often be detected on an ultrasound."
+      },
+      "week12": {
+        "title": "Week 12: Fetus Development",
+        "description": "The embryo is now officially a fetus. Organs and tissues continue to grow and develop.",
+        "fact1": "The fetus is about 2.5 inches long and weighs about 0.5 ounces.",
+        "fact2": "Fingers and toes are fully formed, and nails are beginning to grow.",
+        "fact3": "The face is well-formed with eyes, nose, and mouth."
+      },
+      "week16": {
+        "title": "Week 16: Sensory Development and Movement",
+        "description": "Your baby is growing rapidly, and sensory development is progressing. You might feel movement!",
+        "fact1": "The baby is about 4.5 inches long and weighs about 3.5 ounces.",
+        "fact2": "The baby's eyes are sensitive to light.",
+        "fact3": "Kicks and movements become more noticeable."
+      },
+      "week20": {
+        "title": "Week 20: Mid-Pregnancy Milestone",
+        "description": "You're halfway there! Your baby is growing and becoming more active.",
+        "fact1": "The baby is about 6.5 inches long (crown to rump) and weighs about 10 ounces.",
+        "fact2": "Hair and nails continue to grow.",
+        "fact3": "The baby is swallowing more and producing meconium."
+      },
+      "week24": {
+        "title": "Week 24: Lung Development and Hearing",
+        "description": "The baby's lungs are developing rapidly, and hearing is becoming more acute.",
+        "fact1": "The baby is about 8 inches long and weighs about 1.5 pounds.",
+        "fact2": "The baby can hear sounds from outside the womb.",
+        "fact3": "The lungs are developing air sacs (alveoli)."
+      },
+      "week28": {
+        "title": "Week 28: Brain Development and Eye Movement",
+        "description": "Your baby's brain is developing quickly, and they can open their eyes.",
+        "fact1": "The baby is about 10 inches long and weighs about 2.5 pounds.",
+        "fact2": "The baby can open and close their eyes.",
+        "fact3": "Rapid eye movements (REM) sleep begins."
+      },
+      "week32": {
+        "title": "Week 32: Weight Gain and Organ Maturation",
+        "description": "Your baby is gaining weight rapidly, and organs are continuing to mature.",
+        "fact1": "The baby is about 11 inches long and weighs about 3.75 pounds.",
+        "fact2": "The baby's bones are hardening, but the skull remains soft for birth.",
+        "fact3": "Most babies are in a head-down position by this week."
+      },
+      "week36": {
+        "title": "Week 36: Full-Term Development",
+        "description": "Your baby is nearing full term, with all systems ready for life outside the womb.",
+        "fact1": "The baby is about 12.5 inches long and weighs about 5.75 pounds.",
+        "fact2": "The baby's immune system is developing through antibodies from you.",
+        "fact3": "The baby's head may start to drop into the pelvis (lightening)."
+      },
+      "week40": {
+        "title": "Week 40: Arrival Day!",
+        "description": "Your baby is fully developed and ready to be born!",
+        "fact1": "The baby is about 13.5 inches long and weighs about 7.5 pounds.",
+        "fact2": "The baby's skin is smooth and soft.",
+        "fact3": "The baby is ready for birth!"
+      }
+    },
+    "trimesters": {
+      "first": "First Trimester",
+      "second": "Second Trimester",
+      "third": "Third Trimester"
+    },
+    "trimesterContent": {
+      "first": "The first trimester is a time of rapid development for your baby and many changes for you. Morning sickness, fatigue, and breast tenderness are common. Focus on healthy eating and rest.",
+      "second": "The second trimester is often called the 'golden period' of pregnancy. Morning sickness usually subsides, and you may feel more energetic. You'll likely start to feel your baby move.",
+      "third": "The third trimester brings significant growth for your baby and increasing physical demands for you. Prepare for labor and delivery, and continue to prioritize rest and nutrition.",
+      "unknown": "Trimester information is not available without more data."
+    },
+    "weekDevelopment": {
+      "unknown": "Development information is not available for this week."
+    },
+    "calendar": {
+      "predictedPeriodStart": "Predicted Period Start",
+      "ovulationDay": "Ovulation Day",
+      "fertileWindow": "Fertile Window",
+      "periodCalendarTitle": "Period Calendar",
+      "periodCalendarDescription": "Track your periods and predict your cycle",
+      "noDataYetTitle": "No data yet",
+      "noDataYetDescription": "Log your periods to see your cycle insights.",
+      "logNewPeriodButton": "Log New Period",
+      "yourPeriodHistoryTitle": "Your Period History",
+      "noEntriesYet": "No entries yet. Log a period to get started!",
+      "noEventsOnThisDay": "No events on this day"
+    },
+    "periodLogger": {
+      "logPeriodTitle": "Log Your Period",
+      "logPeriodDescription": "Record the details of your period start or end.",
+      "editPeriodEntryTitle": "Edit Period Entry",
+      "editPeriodEntryDescription": "Update the details for this period log.",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "flowLabel": "Period Flow",
+      "flow": {
+        "light": "Light",
+        "medium": "Medium",
+        "heavy": "Heavy"
+      },
+      "symptomsLabel": "Symptoms",
+      "addCustomSymptom": "Add Custom Symptom",
+      "customSymptomPlaceholder": "Enter custom symptom",
+      "notesLabel": "Notes",
+      "notesPlaceholder": "Add any additional notes about this period.",
+      "logPeriod": "Log Period",
+      "logPeriodStart": "Log Period Start",
+      "logPeriodEnd": "Log Period End",
+      "savingChanges": "Saving changes...",
+      "saveChanges": "Save Changes",
+      "logging": "Logging...",
+      "updateSuccess": "Period entry updated successfully!",
+      "startLoggedSuccess": "Period start logged!",
+      "endLoggedSuccess": "Period end logged!",
+      "startLoggedFailed": "Failed to log period start. Please try again.",
+      "endLoggedFailed": "Failed to log period end. Please try again.",
+      "loginRequired": "You must be logged in to log a period.",
+      "dateFormat": "MMMM d, yyyy"
+    }
+  },
+  "insights": {
+    "title": "Your Cycle Insights",
+    "cycleSummary": {
+      "title": "Cycle Summary",
+      "description": "A detailed overview of your recent cycle patterns.",
+      "averageCycleLength": "Average Cycle Length",
+      "averagePeriodLength": "Average Period Length",
+      "cycleRegularity": "Cycle Regularity",
+      "shortestCycle": "Shortest Cycle"
+    },
+    "exportDataButton": "Export Data",
+    "shareWithDoctorButton": "Share with Doctor",
+    "exportHealthReportButton": "Export Health Report",
+    "requestProfessionalAnalysisButton": "Request Professional Analysis",
+    "dialogs": {
+      "exportData": {
+        "title": "Export Cycle Data",
+        "description": "Download your period and symptom logs.",
+        "info": "Your data will be exported in a CSV format.",
+        "button": "Download Data",
+        "success": "Data exported successfully!"
+      },
+      "shareWithDoctor": {
+        "title": "Share with Doctor",
+        "description": "Securely share your cycle data with your healthcare provider.",
+        "emailLabel": "Doctor's Email",
+        "emailPlaceholder": "doctor@example.com",
+        "button": "Share Data",
+        "success": "Data shared successfully!"
+      },
+      "requestAnalysis": {
+        "title": "Request Professional Analysis",
+        "description": "Request a professional analysis of your cycle data from a healthcare expert.",
+        "info": "A healthcare professional will review your data and provide personalized insights. We will contact you via email once the analysis is complete.",
+        "emailLabel": "Your Contact Email",
+        "emailPlaceholder": "your.email@example.com",
+        "button": "Submit Request",
+        "success": "Analysis request submitted successfully!"
+      }
+    },
+    "healthArticles": {
+      "title": "Health Resources",
+      "irregularCycles": {
+        "title": "Irregular Cycles",
+        "description": "Learn what causes irregular periods and when you should consult a doctor."
+      },
+      "hormonalHealth": {
+        "title": "Hormonal Health",
+        "description": "Discover how your lifestyle affects your hormonal balance and cycle health."
+      },
+      "exerciseThroughoutCycle": {
+        "title": "Exercise Throughout Your Cycle",
+        "description": "Learn how to optimize your workouts according to your menstrual cycle phases."
+      },
+      "exerciseDuringPeriodHealthline": {
+        "title": "Exercise During Your Period: Benefits, Safety, and More",
+        "source": "Healthline"
+      },
+      "exerciseDuringPeriodVerywell": {
+        "title": "Should You Exercise During Your Period?",
+        "source": "Verywell Health"
+      },
+      "understandingPMSGeneral": {
+        "title": "Understanding PMS",
+        "description": "Explore the physical and emotional symptoms of Premenstrual Syndrome."
+      },
+      "pmsMayoClinic": {
+        "title": "Premenstrual Syndrome (PMS)",
+        "source": "Mayo Clinic"
+      },
+      "pmsACOG": {
+        "title": "Premenstrual Syndrome (PMS)",
+        "source": "American College of Obstetricians and Gynecologists"
+      }
+    },
+    "cyclePhases": {
+      "title": "Understanding Your Cycle Phases",
+      "description": "Learn about the different phases of your menstrual cycle and what happens in each."
+    },
+    "understandingYourCycle": {
+      "title": "Understanding Your Cycle"
+    },
+    "menstrualPhase": {
+      "title": "Menstrual Phase",
+      "description": "The start of your period, when the uterine lining sheds."
+    },
+    "follicularPhase": {
+      "title": "Follicular Phase",
+      "description": "The time from the first day of your period to ovulation."
+    },
+    "ovulationPhase": {
+      "title": "Ovulation Phase",
+      "description": "When a mature egg is released from the ovary."
+    },
+    "lutealPhase": {
+      "title": "Luteal Phase",
+      "description": "The time from ovulation until the start of your next period."
+    },
+    "commonMyths": {
+      "title": "Common Cycle Myths & Facts",
+      "myth1": {
+        "title": "Myth: All cycles are 28 days.",
+        "fact": "Fact: Cycle lengths vary greatly, typically from 21 to 35 days."
+      },
+      "myth2": {
+        "title": "Myth: You can't get pregnant on your period.",
+        "fact": "Fact: While less likely, it's possible to conceive if you have a short cycle."
+      },
+      "myth3": {
+        "title": "Myth: PMS is all in your head.",
+        "fact": "Fact: PMS is a real condition with physical and emotional symptoms."
+      }
+    },
+    "essentialTerms": {
+      "title": "Essential Cycle Terms",
+      "menarche": {
+        "title": "Menarche",
+        "description": "The first occurrence of menstruation."
+      },
+      "ovulation": {
+        "title": "Ovulation",
+        "description": "The release of a mature egg from the ovary."
+      },
+      "lh": {
+        "title": "Luteinizing Hormone (LH)",
+        "description": "A hormone that triggers ovulation."
+      },
+      "fsh": {
+        "title": "Follicle-Stimulating Hormone (FSH)",
+        "description": "A hormone that stimulates the growth of ovarian follicles."
+      },
+      "estrogen": {
+        "title": "Estrogen",
+        "description": "A hormone responsible for the growth and development of female secondary sexual characteristics."
+      },
+      "progesterone": {
+        "title": "Progesterone",
+        "description": "A hormone that prepares the uterus for pregnancy."
+      }
+    }
+  },
+  "periodHistory": {
+    "noEntries": "No entries yet. Log a period to get started!"
+  },
+  "settings": {
+  }
+} 
