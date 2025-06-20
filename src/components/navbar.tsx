@@ -40,7 +40,7 @@ export function Navbar() {
             )}
           >
             <item.icon className="h-5 w-5 sm:h-6 sm:w-6" />
-            <span className="hidden xs:inline">{item.label}</span>
+            <span>{item.label}</span>
           </Link>
         ))}
       </div>
